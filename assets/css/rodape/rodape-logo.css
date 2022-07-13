@@ -1,0 +1,9 @@
+.rodape__logo {
+	border-radius: 30%;
+	position: relative;
+	left: 50%;
+	margin-top: 1rem;
+	right: 50%;
+	text-align: center;
+	transform: translate(-50%);
+}

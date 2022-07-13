@@ -33,6 +33,11 @@
         <link rel="stylesheet" href="./assets/css/pessoa/pessoa-imagem.css">
         <link rel="stylesheet" href="./assets/css/pessoa/pessoa-funcao.css">
         <link rel="stylesheet" href="./assets/css/pessoa/pessoa-nome.css">
+        <link rel="stylesheet" href="./assets/css/rodape/rodape.css">
+        <link rel="stylesheet" href="./assets/css/rodape/rodape-logo.css">
+        <link rel="stylesheet" href="./assets/css/rodape/rodape-copyright.css">
+        <link rel="stylesheet" href="./assets/css/rodape/rodape-contato.css">
+        <link rel="stylesheet" href="./assets/css/logo.css">
 
 
 
@@ -43,15 +48,15 @@
             <nav class="menu">
                 <ul class="menu__lista">
                     <li class="menu__item"><a class="menu__link ativo" href="#">Início</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Receitas</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Quem Somos</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Comunidade</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#receitas">Receitas</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#quem-somos">Quem Somos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#comunidade">Comunidade</a></li>
                 </ul>
             </nav>
         </header>
 
         <section class="banner">
-            <div class="banner__imagem" src="./assets/img/banner.jpg"></div>
+            <div class="banner__imagem"></div>
             <h2 class="banner__titulo" >Reaproveite melhor os alimentos!</h2>
         </section>
         <section class="sobre">
@@ -59,7 +64,7 @@
             <p class="sobre__descricao">Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar, ganhar tempo e praticidade</p>
         </section>
 
-        <section class="receitas">
+        <section id="receitas" class="receitas">
             <div class="receita">
                 <img alt="Tigela de abacate" class="receita__imagem" src="./assets/img/receitas/tigela-de-abacate.jpg" />
                 <div class="receita__conteudo">
@@ -110,7 +115,7 @@
             </div>
         </section>
 
-        <section class="quem-somos">
+        <section id="quem-somos" class="quem-somos">
             <h3 class="quem-somos__titulo">Quem somos</h3>
             <p class="quem-somos__descricao">Conheça a comunidade por trás da iniciativa</p>
             <div class="pessoas">
@@ -132,5 +137,10 @@
             </div>
         </section>
 
+        <footer id="comunidade" class="rodape">
+
+            <img class="rodape__logo" alt="Fruta e Fruto" src="./assets/img/logo.jpg"/>
+            <p class="rodape__copyright">Copyright Comunidade Fruta & Fruto - 2022 &copy;</p>
+        </footer>
     </header>
 </html>
