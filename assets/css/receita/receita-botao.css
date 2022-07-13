@@ -8,6 +8,6 @@
 }
 
 .receita__botao:hover{
-	cursor: pointer;
 	background: #620404;
+	cursor: pointer;
 }

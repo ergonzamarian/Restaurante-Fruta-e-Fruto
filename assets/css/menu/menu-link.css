@@ -11,6 +11,6 @@
 }
 
 .menu__link:hover {
-	text-decoration: underline;
 	color: goldenrod;
+	text-decoration: underline;
 }
